@@ -22,4 +22,34 @@ body{
     background-position: top;
     background-image: url('../images/bg-pattern-bottom.svg');
     background-position: bottom;
+    background-color: VAR(--clr-dark-cyan);
+}
+
+.MAIN{
+    background-color: white;
+    background-image: url('../images/bg-pattern-card.svg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border-radius: 1rem;
+    width: 20%;
+    padding: 10rem 6rem 10rem 6rem;
+    margin: 10rem auto; 
+}
+
+.VICTOR{
+    margin: -2rem auto auto 4rem;
+    border-radius: 2.5rem;
+    border: 0.1rem solid white;
+}
+
+h1{
+ font-size: 1.3rem;   
+ margin: 0 auto auto 2rem;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    opacity: 0.6;
+    margin: -1.5rem 0 0 11rem;
 }
